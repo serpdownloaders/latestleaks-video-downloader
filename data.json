@@ -1,0 +1,209 @@
+{
+  "github_source_repo": "https://github.com/serpcompany/latestleaks-downloader",
+  "serply_link": "https://serp.ly/latestleaks-downloader",
+  "app_name": "Latestleaks Video Downloader",
+  "short_description": "Download & Save Latestleaks Videos Easily for Offline Viewing (Browser Extension)",
+  "long_description": "The Latestleaks Downloader is a browser extension designed for Latestleaks-branded pages that use article-like slug routes with numeric tails instead of obvious /video/ paths. This tool focuses on detecting video sources exposed through embedded players or iframe handoffs, making it easier to save content from Latestleaks pages.",
+  "main_video": "",
+  "featured_image": "",
+  "screenshots": [
+    "https://apps.serp.co/media/optimized-products/latestleaks-downloader-fullscreen-01-20f5e5ba3e.webp",
+    "https://apps.serp.co/media/optimized-products/latestleaks-downloader-fullscreen-02-1b9a74219a.webp",
+    "https://apps.serp.co/media/optimized-products/latestleaks-downloader-fullscreen-03-a66705954c.webp",
+    "https://apps.serp.co/media/optimized-products/latestleaks-downloader-fullscreen-04-79911e8374.webp"
+  ],
+  "chromestore_link": "",
+  "firefoxstore_link": "",
+  "other_links": [],
+  "faqs": [
+    {
+      "question": "What makes Latestleaks different from other video sites?",
+      "answer": "Latestleaks pages use article-like slug routes with numeric tails instead of obvious /video/ paths. This means the video is often hidden behind an embedded player or iframe handoff."
+    },
+    {
+      "question": "What video formats does the extension work with?",
+      "answer": "The extension looks for MP4 and HLS/M3U8 stream sources exposed on Latestleaks pages."
+    },
+    {
+      "question": "Why do I need to start playback before downloading?",
+      "answer": "Many Latestleaks pages use embedded players that only initialize their stream connections after the video starts playing. Starting playback ensures the extension can detect the active media source."
+    },
+    {
+      "question": "Is the extension fully verified to work on all Latestleaks pages?",
+      "answer": "The target domain is verified, but some page configurations may still need refinement. The extension is designed for the most common Latestleaks page patterns."
+    },
+    {
+      "question": "Can I use this extension on other websites?",
+      "answer": "No, the Latestleaks Downloader is specifically built for Latestleaks pages and may not work on other platforms."
+    }
+  ],
+  "permissions": [
+    {
+      "name": "",
+      "description": "Only download content you own or have explicit permission to save"
+    }
+  ],
+  "features": [
+    "Latestleaks-specific branding and product URL for targeted functionality",
+    "Designed around article-like slug routes with numeric tails",
+    "Likely iframe/embedded-player handoff positioning for media discovery",
+    "Stream detection for MP4 and HLS/M3U8 formats",
+    "Verified target row with Latestleaks domain coverage",
+    "Latestleaks-specific page detection for article-like slug routes",
+    "Likely iframe and embedded-player handoff awareness",
+    "Stream detection for MP4 and HLS/M3U8 video formats",
+    "Wildcard domain coverage for latestleaks.co and subdomains",
+    "Verified target row with Latestleaks branding",
+    "Clean popup interface for download management",
+    "Lightweight extension with focused functionality",
+    "Regular updates aligned with Latestleaks page structure changes"
+  ],
+  "content": {
+    "why": [
+      "Latestleaks pages often look like fresh article posts rather than direct video routes. The URLs use slug-style paths with numeric tails that can hide the actual media surface behind branding and embedded player layers. Generic download tools struggle with this setup because they expect simple video file links.",
+      "The Latestleaks Downloader is built specifically for this workflow. It focuses on detecting video sources exposed through Latestleaks-branded page shells, where iframe handoffs and embedded players are common. Instead of guessing at generic page structures, this extension targets the patterns unique to Latestleaks pages, making the download process more reliable for users who regularly visit the platform."
+    ],
+    "how_it_works": [
+      "Install the extension from the latest release.",
+      "Open Latestleaks and go to a supported video page.",
+      "Start playback so the extension can detect the media.",
+      "Open the popup or use the on-page controls.",
+      "Choose the quality option you want.",
+      "Start the download and wait for the MP4 export to finish.",
+      "Save the final file locally."
+    ],
+    "tutorial": [
+      "Install the Latestleaks Downloader extension from the GitHub releases page.",
+      "Navigate to Latestleaks and find a video page with an article-like slug URL.",
+      "Allow the page to fully load, including any embedded player or iframe content.",
+      "Start the video playback so the media source becomes active.",
+      "Click the extension icon in your browser toolbar to open the popup.",
+      "Review the detected media sources shown in the interface.",
+      "Select your preferred quality or format option if available.",
+      "Click the download button and save the resulting MP4 file."
+    ],
+    "supported_formats": [
+      "Input: MP4 and HLS/M3U8 stream sources exposed through Latestleaks pages",
+      "Output: MP4",
+      "Saved files use MP4 so they are easier to replay on standard media players, move between devices, or archive locally."
+    ],
+    "target_users": [
+      "Users who regularly visit Latestleaks and want to save videos locally",
+      "People frustrated with generic downloaders that fail on article-style slug pages",
+      "Archivists building personal collections of Latestleaks content",
+      "Users who prefer a Latestleaks-specific tool instead of digging through browser developer tools"
+    ],
+    "use_cases": [
+      "Saving videos from Latestleaks pages that use numeric-tail slug URLs",
+      "Downloading content that sits behind an embedded player or iframe handoff",
+      "Archiving Latestleaks videos for offline viewing without internet access",
+      "Collecting MP4 versions of content that streams via HLS",
+      "Using a dedicated tool instead of screen recording or manual source hunting"
+    ],
+    "troubleshooting": [
+      "The extension does not detect any video on the page Make sure the video is playing and the embedded player has fully loaded. Try refreshing the page and starting playback again before opening the extension popup.",
+      "The download starts but fails partway through Check your internet connection and ensure the video source is still active. Some streams may have time-limited access that requires restarting playback.",
+      "I see an error about unsupported page format The extension is designed for Latestleaks pages with article-like slug structures. If the page uses a different URL pattern or redirects to an external player, detection may not work.",
+      "The popup shows no sources after I click the extension icon Try waiting a few seconds after starting video playback. Some embedded players need time to initialize their stream connections before sources become visible.",
+      "The download button is grayed out or unresponsive This usually means the extension is still scanning for available media sources. Give it a moment to complete detection, or try refreshing the page."
+    ],
+    "trial_access": [
+      "Includes 3 free downloads so you can test the workflow first",
+      "Email sign-in uses secure one-time password verification",
+      "No credit card required for the trial",
+      "Unlimited downloads are available with a paid license"
+    ],
+    "installation_instructions": [
+      "Open the latest release page.",
+      "Download the correct build for your browser.",
+      "Install the extension.",
+      "Open a supported Latestleaks page.",
+      "Use the popup to detect and download the media."
+    ],
+    "notes": [
+      "Only download content you own or have explicit permission to save",
+      "An internet connection is required for downloads",
+      "Latestleaks pages may use third-party domains for embedded players or assets",
+      "The extension works best on pages with the standard article-like slug URL pattern"
+    ],
+    "about": [
+      "Latestleaks is a platform that hosts video content organized through article-style pages with numeric-tail URLs. The Latestleaks Downloader helps users save videos from these pages by focusing on the unique page structure and embedded player workflows common to the site."
+    ]
+  },
+  "serpx_link": "https://serpx.link/latestleaks-downloader",
+  "github_topics": [
+    "latestleaks-download",
+    "latestleaks-downloader",
+    "latestleaks-video-downloader",
+    "latestleaks-video-downloader-online",
+    "latestleaks-video-downloader-mac",
+    "latestleaks-video-downloader-window",
+    "latestleaks-video-downloader-free",
+    "latestleaks-video-downloader-extension",
+    "latestleaks-video-downloader-app",
+    "latestleaks-video-downloader-chrome",
+    "latestleaks-video-downloader-from-url",
+    "how-to-download-latestleaks-videos",
+    "how-to-download-latestleaks-videos-mac",
+    "how-to-download-latestleaks-videos-windows",
+    "how-to-download-latestleaks-videos-online",
+    "how-to-download-latestleaks-videos-free",
+    "how-to-download-from-latestleaks",
+    "how-to-download-videos-from-latestleaks",
+    "download-latestleaks-videos",
+    "latestleaks-video-tutorial",
+    "save-latestleaks-videos",
+    "latestleaks-video-content-saver",
+    "how-to-download-latestleaks-videos-for-free"
+  ],
+  "hashtags": [
+    "#LatestleaksDownload",
+    "#LatestleaksDownloader",
+    "#LatestleaksVideoDownloader",
+    "#LatestleaksVideoDownloaderOnline",
+    "#LatestleaksVideoDownloaderMac",
+    "#LatestleaksVideoDownloaderWindow",
+    "#LatestleaksVideoDownloaderFree",
+    "#LatestleaksVideoDownloaderExtension",
+    "#LatestleaksVideoDownloaderApp",
+    "#LatestleaksVideoDownloaderChrome",
+    "#LatestleaksVideoDownloaderFromURL",
+    "#HowToDownloadLatestleaksVideos",
+    "#HowToDownloadLatestleaksVideosMac",
+    "#HowToDownloadLatestleaksVideosWindows",
+    "#HowToDownloadLatestleaksVideosOnline",
+    "#HowToDownloadLatestleaksVideosFree",
+    "#HowToDownloadFromLatestleaks",
+    "#HowToDownloadVideosFromLatestleaks",
+    "#DownloadLatestleaksVideos",
+    "#LatestleaksVideoTutorial",
+    "#SaveLatestleaksVideos",
+    "#LatestleaksVideoContentSaver",
+    "#HowToDownloadLatestleaksVideosForFree"
+  ],
+  "youtube_tags": [
+    "Latestleaks Download",
+    "Latestleaks Downloader",
+    "Latestleaks Video Downloader",
+    "Latestleaks Video Downloader Online",
+    "Latestleaks Video Downloader Mac",
+    "Latestleaks Video Downloader Window",
+    "Latestleaks Video Downloader Free",
+    "Latestleaks Video Downloader Extension",
+    "Latestleaks Video Downloader App",
+    "Latestleaks Video Downloader Chrome",
+    "Latestleaks Video Downloader From URL",
+    "How To Download Latestleaks Videos",
+    "How To Download Latestleaks Videos Mac",
+    "How To Download Latestleaks Videos Windows",
+    "How To Download Latestleaks Videos Online",
+    "How To Download Latestleaks Videos Free",
+    "How To Download From Latestleaks",
+    "How To Download Videos From Latestleaks",
+    "Download Latestleaks Videos",
+    "Latestleaks Video Tutorial",
+    "Save Latestleaks Videos",
+    "Latestleaks Video Content Saver",
+    "How To Download Latestleaks Videos For Free"
+  ]
+}
